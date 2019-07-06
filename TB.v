@@ -1,4 +1,4 @@
-module TB();
+module TB(); // this module is testbench
 	reg clk = 1, rst, memClk = 1;
 	reg[14:0] Address = 1024;
 	wire ready;
